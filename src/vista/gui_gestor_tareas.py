@@ -4,7 +4,7 @@ import sys
 import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.logica.gestor_tareas import GestorTareas
+from logica.gestor_tareas import GestorTareas
 
 
 class AplicacionGestorTareas:
@@ -126,17 +126,17 @@ class AplicacionGestorTareas:
         style.configure('Primary.TButton',
                         font=('Helvetica', 10),
                         background='#3498db',
-                        foreground='white')
+                        foreground='black')
 
         style.configure('Success.TButton',
                         font=('Helvetica', 10),
                         background='#2ecc71',
-                        foreground='white')
+                        foreground='black')
 
         style.configure('Danger.TButton',
                         font=('Helvetica', 10),
                         background='#e74c3c',
-                        foreground='white')
+                        foreground='black')
 
         # Estilo para los campos de entrada
         style.configure('Custom.TEntry',

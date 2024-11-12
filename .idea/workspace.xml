@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbb1ccd-5990-4cc7-88cc-3a255d735e13" name="Changes" comment="Se añade gitgnore">
+    <list default="true" id="abbb1ccd-5990-4cc7-88cc-3a255d735e13" name="Changes" comment="Gestor de tareas (mejorar interface)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logica/gestor_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logica/gestor_tareas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/test_gestor_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/test_gestor_tareas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/gui_gestor_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/gui_gestor_tareas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +26,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2oj2USTiZEw2FiQcDYdPD5Ft8DL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.gestor_tareas.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test_gestor_tareas.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.gestor_tareas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui_gestor_tareas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_gestor_tareas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/prototipo gestor/gestion_tareass&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Martes Lunes\gestion_tareass" />
@@ -70,6 +70,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/logica/gestor_tareas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gui_gestor_tareas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gestion_tareass" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/vista" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/vista/gui_gestor_tareas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gui_gestor_tareas" />
         <item itemvalue="Python.gestor_tareas" />
         <item itemvalue="Python.test_gestor_tareas" />
       </list>
@@ -153,11 +176,20 @@
       <option name="project" value="LOCAL" />
       <updated>1731369074925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gestor de tareas (mejorar interface)">
+      <option name="closed" value="true" />
+      <created>1731370545442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731370545442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se añade gitgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se añade gitgnore" />
+    <MESSAGE value="Gestor de tareas (mejorar interface)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gestor de tareas (mejorar interface)" />
   </component>
 </project>
